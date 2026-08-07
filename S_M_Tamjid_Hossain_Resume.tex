@@ -1,0 +1,113 @@
+%-------------------------
+% Resume in Latex
+%------------------------
+
+\documentclass[a4paper,14pt]{extarticle}
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage[colorlinks=true, urlcolor=black, linkcolor=black, citecolor=black]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{cfr-lm}
+\usepackage[T1]{fontenc}
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.2cm, top=0.8cm, right=1.2cm, bottom=0.8cm}
+
+\urlstyle{same}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\normalsize\bfseries
+}{}{0em}{}[\titlerule \vspace{-3pt}]
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeItemListStart}{\begin{justify}\begin{itemize}[leftmargin=2.5ex, rightmargin=2ex, noitemsep,labelsep=1mm,itemsep=0.2mm]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\end{justify}\vspace{-2mm}}
+
+\begin{document}
+\fontfamily{cmr}\selectfont
+
+%----------HEADING-----------------
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+    \textbf{\Large S M TAMJID HOSSAIN EPICK}\\[2pt]
+    \textbf{\normalsize FULL STACK DEVELOPER}
+\end{minipage}%
+\begin{minipage}[t]{0.46\textwidth}
+    \raggedleft
+    \small % Links size
+    \href{mailto:epickhossain970@gmail.com}{Email} | 
+    \href{https://epickdev.vercel.app}{Portfolio} | 
+    \href{https://www.linkedin.com/in/epick-dev}{LinkedIn} | 
+    \href{https://github.com/tamjid97}{GitHub} \\
+    \textbf{\normalsize +8801339613197} % Phone number size reduced slightly
+\end{minipage}
+\vspace{1.5mm}
+
+%----------CAREER OBJECTIVE-----------
+\section{CAREER OBJECTIVE}
+\small
+Dedicated Full Stack Developer with a strong problem-solving mindset and a solid foundation in React, Next.js, Node.js, TypeScript, and PostgreSQL. My career goal is to architect scalable, high-performance web applications while continuously growing as a software engineer. Seeking an entry-level position where I can utilize my technical skills to effectively contribute to the company's success.
+\vspace{0.5mm}
+
+%----------TECHNICAL SKILL-----------
+\section{TECHNICAL SKILL}
+\small
+\textbf{Frontend:} Next.js, React, TypeScript, JavaScript, Tailwind CSS, HTML5, CSS3, Framer Motion \\[2mm]
+\textbf{Backend \& Database:} Node.js, Express.js, TypeScript, PostgreSQL, Prisma ORM, MongoDB, Firebase \\[2mm]
+\textbf{Version Control \& Deployment:} Git, GitHub, Vercel, Netlify
+\vspace{0.5mm}
+
+%----------PROJECTS-----------------
+\section{PROJECTS}
+\small
+\textbf{Roots of Biology — Full-Stack LMS} \hfill \textbf{\href{https://rootsofbiology.vercel.app}{Live} | \href{https://youtu.be/dh-8Sf57l7c?si=uT_lJmYeFL4VbPag}{YouTube} | \href{https://github.com/tamjid97/Amader-Patshala-Fontand-v2.git}{Github}}
+\resumeItemListStart
+    \item Engineered a comprehensive LMS adopted by 100+ active students, streamlining administrative operations and academic workflows.
+    \item Implemented a 4-tier role system (User, Student, Moderator, Admin) with request-approval workflows: Admins handle user moderation (Ban/Unban) and promote moderators, while Moderators approve student requests to unlock special materials.
+    \item Empowered moderators with complete resource management tools, including PDF creation, upload, editing, and deletion with batch-wise access control, batch timing configurations, and result publishing.
+\resumeItemListEnd
+\textbf{Tech Stack:} Next.js, TypeScript, Tailwind CSS, Framer Motion, Shadcn UI, Prisma, PostgreSQL, Vercel
+\vspace{2.5mm}
+
+\textbf{RentNest — Rental Property Marketplace} \hfill \textbf{\href{https://rentnest-navy.vercel.app}{Live} | \href{https://youtu.be/_ZtuveLOK4A?si=nNtiLh5dmj15-x5A}{YouTube} | \href{https://github.com/tamjid97/RentNest_Frontend.git}{Github}}
+\resumeItemListStart
+    \item Developed a full-featured rental platform with Next.js (App Router), featuring advanced search filtering and secure image uploads.
+    \item Implemented role-based access control (RBAC) for Tenants, Landlords, and Admins, supporting secure JWT authentication.
+    \item Integrated Stripe for secure payment processing and built interactive dashboards for real-time rental request tracking and status updates.
+    \item Utilized Prisma ORM with PostgreSQL for data integrity and Server Actions for efficient server-side operations.
+\resumeItemListEnd
+\textbf{Tech Stack:} Next.js, TypeScript, Tailwind CSS, Prisma, PostgreSQL, Stripe
+\vspace{0.5mm}
+
+%----------LICENSES \& CERTIFICATIONS-----------
+\section{LICENSES \& CERTIFICATIONS}
+\small
+\textbf{Complete Web Development Course} – Programming Hero \hfill \href{https://drive.google.com/file/d/1nZyMq2PHUmZ-jAfhEY0d0lX6e8UqdGpd/view}{\textbf{Show credential}} \\
+\textit{Issued Dec 2025 \quad | \quad Credential ID: WEB12-1568}
+\vspace{0.5mm}
+
+\textbf{Next Level Web Development} – Programming Hero \hfill \textit{Present} \\
+\textit{Credential ID: L2B7-0820}
+\vspace{0.5mm}
+
+%----------LANGUAGE-----------
+\section{LANGUAGE}
+\small
+Bangla (Native) \quad | \quad English (Intermediate) \quad | \quad Urdu (Conversational)
+
+\end{document}
